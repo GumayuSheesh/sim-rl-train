@@ -1,0 +1,10 @@
+.git
+.github
+**/__pycache__
+**/*.pyc
+.venv
+venv
+runs/
+*.zip
+*.mp4
+MAINTAINERS.md

@@ -1,0 +1,14 @@
+# Simulation + RL stack layered on the base image's PyTorch.
+# torch/torchvision/torchaudio are NOT listed: the Dockerfile freezes the base
+# image's versions into a constraints file so pip can never replace CUDA torch.
+gymnasium[mujoco]==1.4.0
+mujoco==4.0.0
+stable-baselines3==2.9.2
+sb3-contrib==2.9.2
+tensorboard==2.21.0
+imageio==2.38.1
+imageio-ffmpeg==0.8.1
+moviepy==2.2.1
+matplotlib==3.11.2
+tqdm==4.70.1
+rich==15.0.0
